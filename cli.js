@@ -7,7 +7,9 @@ const cli = meow(`
 	Examples
 	  $ rgb-hex 255 154 253
 	  ff9afd
-	  $ rgb-hex 'rgb(40, 42, 54)'
+		$ rgb-hex 234129131
+		ea8183
+		$ rgb-hex 'rgb(40, 42, 54)'
 	  282a36
 `);
 
