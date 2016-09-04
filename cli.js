@@ -11,4 +11,4 @@ const cli = meow(`
 	  282a36
 `);
 
-console.log(rgbHex(cli.input.join(' ')));
+console.log(rgbHex(cli.input.length === 1 ? cli.input[0].toString().match(/.{1,3}/g).join() : cli.input.join(' ')));
