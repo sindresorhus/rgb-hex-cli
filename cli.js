@@ -9,6 +9,8 @@ const cli = meow(`
 	  ff9afd
 	  $ rgb-hex 'rgb(40, 42, 54)'
 	  282a36
+	  $ rgb-hex 'rgba(40, 42, 54, 75%)'
+	  282a36bf
 `);
 
 console.log(rgbHex(cli.input.join(' ')));
