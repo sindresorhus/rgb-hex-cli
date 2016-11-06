@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "meow": "^3.7.0",
-    "rgb-hex": "^2.0.0"
+    "rgb-hex": "^2.1.0"
   },
   "devDependencies": {
     "ava": "*",
