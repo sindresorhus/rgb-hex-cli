@@ -18,6 +18,8 @@ $ rgb-hex --help
   Examples
     $ rgb-hex 255 154 253
     ff9afd
+    $ rgb-hex 234129131
+    ea8183
     $ rgb-hex 'rgb(40, 42, 54)'
     282a36
     $ rgb-hex 'rgba(40, 42, 54, 75%)'
