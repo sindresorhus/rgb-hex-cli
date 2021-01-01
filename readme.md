@@ -1,4 +1,4 @@
-# rgb-hex-cli [![Build Status](https://travis-ci.org/sindresorhus/rgb-hex-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/rgb-hex-cli)
+# rgb-hex-cli
 
 > Convert RGB color to HEX
 
