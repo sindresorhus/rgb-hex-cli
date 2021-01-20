@@ -2,13 +2,11 @@
 
 > Convert RGB color to HEX
 
-
 ## Install
 
 ```
 $ npm install --global rgb-hex-cli
 ```
-
 
 ## Usage
 
@@ -24,12 +22,6 @@ $ rgb-hex --help
     282a36c0
 ```
 
-
 ## Related
 
 - [rgb-hex](https://github.com/sindresorhus/rgb-hex) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

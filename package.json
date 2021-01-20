@@ -3,20 +3,18 @@
 	"version": "1.1.0",
 	"description": "Convert RGB color to HEX",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sindresorhus/rgb-hex-cli.git"
-	},
+	"repository": "sindresorhus/rgb-hex-cli",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
 		"rgb-hex": "cli.js"
 	},
 	"engines": {
-		"node": ">=7.6.0"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -43,14 +41,5 @@
 		"ava": "^3.15.0",
 		"execa": "^5.0.0",
 		"xo": "^0.37.1"
-	},
-	"xo": {
-		"esnext": true
-	},
-	"bugs": {
-		"url": "https://github.com/sindresorhus/rgb-hex-cli/issues"
-	},
-	"readme": "ERROR: No README data found!",
-	"homepage": "https://github.com/sindresorhus/rgb-hex-cli#readme",
-	"_id": "rgb-hex-cli@1.1.0"
+	}
 }

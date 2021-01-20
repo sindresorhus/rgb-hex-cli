@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const rgbHex = require('rgb-hex');
+import meow from 'meow';
+import rgbHex from 'rgb-hex';
 
 const cli = meow(`
 	Examples
