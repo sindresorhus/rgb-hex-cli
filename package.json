@@ -16,7 +16,7 @@
 		"rgb-hex": "cli.js"
 	},
 	"engines": {
-		"node": ">=4"
+		"node": ">=7.6.0"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -36,13 +36,13 @@
 		"converter"
 	],
 	"dependencies": {
-		"meow": "^3.7.0",
-		"rgb-hex": "^2.1.0"
+		"meow": "^9.0.0",
+		"rgb-hex": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^[object Promise]",
-		"execa": "^0.4.0",
-		"xo": "^[object Promise]"
+		"ava": "^3.15.0",
+		"execa": "^5.0.0",
+		"xo": "^0.37.1"
 	},
 	"xo": {
 		"esnext": true
