@@ -10,6 +10,8 @@ const cli = meow(`
 	  282a36
 	  $ rgb-hex 'rgba(40, 42, 54, 75%)'
 	  282a36bf
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log(rgbHex(cli.input.join(' ')));

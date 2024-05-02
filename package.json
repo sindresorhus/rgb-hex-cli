@@ -4,6 +4,7 @@
 	"description": "Convert RGB color to HEX",
 	"license": "MIT",
 	"repository": "sindresorhus/rgb-hex-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -11,10 +12,10 @@
 	},
 	"type": "module",
 	"bin": {
-		"rgb-hex": "cli.js"
+		"rgb-hex": "./cli.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,12 +35,12 @@
 		"converter"
 	],
 	"dependencies": {
-		"meow": "^9.0.0",
-		"rgb-hex": "^3.0.0"
+		"meow": "^13.2.0",
+		"rgb-hex": "^4.1.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.0.0",
-		"xo": "^0.37.1"
+		"ava": "^6.1.2",
+		"execa": "^8.0.1",
+		"xo": "^0.58.0"
 	}
 }

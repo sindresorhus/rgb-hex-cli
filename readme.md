@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global rgb-hex-cli
+```sh
+npm install --global rgb-hex-cli
 ```
 
 ## Usage
@@ -24,4 +24,4 @@ $ rgb-hex --help
 
 ## Related
 
-- [rgb-hex](https://github.com/sindresorhus/rgb-hex) - API for this module
+- [rgb-hex](https://github.com/sindresorhus/rgb-hex) - API for this package

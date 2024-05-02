@@ -1,5 +1,5 @@
 import test from 'ava';
-import execa from 'execa';
+import {execa} from 'execa';
 
 test('assumed rgb', async t => {
 	const {stdout} = await execa('./cli.js', ['255', '154', '253']);
